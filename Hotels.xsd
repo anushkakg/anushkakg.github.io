@@ -1,0 +1,104 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://venus.sod.asu.edu/WSRepository/xml" targetNamespace="http://venus.sod.asu.edu/WSRepository/xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en"> Distributed Software Development Course Example </xsd:documentation>
+    </xsd:annotation>
+    <xsd:element name="Hotels" type="HotelsType"/>
+    <xsd:complexType name="HotelsType">
+        <xsd:sequence>
+            <xsd:element name="Hotel" type="HotelDetails" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="HotelDetails">
+        <xsd:sequence>
+            <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
+            <xsd:element name="Address" type=" xsd:string " minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Rating" type="RatingType" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:simpleType name="PhoneType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{3}\-\d{3}\-\d{4}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:complexType name="AddressType">
+        <xsd:sequence>
+            <xsd:element name="Number" type="xsd:positiveInteger"/>
+            <xsd:element name="Street" type="xsd:string"/>
+            <xsd:element name="City" type="xsd:string"/>
+            <xsd:element name="State" type="StateType"/>
+            <xsd:element name="Zip" type="ZipType"/>
+        </xsd:sequence>
+        <xsd:attribute name="NearestAirport" type="ZipType" use="required"/>
+    </xsd:complexType>
+    <xsd:simpleType name="StateType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="AK"/>
+            <xsd:enumeration value="AL"/>
+            <xsd:enumeration value="AR"/>
+            <xsd:enumeration value="AZ"/>
+            <xsd:enumeration value="CA"/>
+            <xsd:enumeration value="CO"/>
+            <xsd:enumeration value="CT"/>
+            <xsd:enumeration value="DC"/>
+            <xsd:enumeration value="DE"/>
+            <xsd:enumeration value="FL"/>
+            <xsd:enumeration value="GA"/>
+            <xsd:enumeration value="HI"/>
+            <xsd:enumeration value="IA"/>
+            <xsd:enumeration value="ID"/>
+            <xsd:enumeration value="IL"/>
+            <xsd:enumeration value="IN"/>
+            <xsd:enumeration value="KS"/>
+            <xsd:enumeration value="KY"/>
+            <xsd:enumeration value="LA"/>
+            <xsd:enumeration value="MA"/>
+            <xsd:enumeration value="MD"/>
+            <xsd:enumeration value="ME"/>
+            <xsd:enumeration value="MH"/>
+            <xsd:enumeration value="MI"/>
+            <xsd:enumeration value="MN"/>
+            <xsd:enumeration value="MO"/>
+            <xsd:enumeration value="MP"/>
+            <xsd:enumeration value="MS"/>
+            <xsd:enumeration value="MT"/>
+            <xsd:enumeration value="NC"/>
+            <xsd:enumeration value="ND"/>
+            <xsd:enumeration value="NE"/>
+            <xsd:enumeration value="NH"/>
+            <xsd:enumeration value="NJ"/>
+            <xsd:enumeration value="NM"/>
+            <xsd:enumeration value="NV"/>
+            <xsd:enumeration value="NY"/>
+            <xsd:enumeration value="OH"/>
+            <xsd:enumeration value="OK"/>
+            <xsd:enumeration value="OR"/>
+            <xsd:enumeration value="PA"/>
+            <xsd:enumeration value="PR"/>
+            <xsd:enumeration value="RI"/>
+            <xsd:enumeration value="SD"/>
+            <xsd:enumeration value="TN"/>
+            <xsd:enumeration value="TX"/>
+            <xsd:enumeration value="UT"/>
+            <xsd:enumeration value="VA"/>
+            <xsd:enumeration value="VI"/>
+            <xsd:enumeration value="VT"/>
+            <xsd:enumeration value="WA"/>
+            <xsd:enumeration value="WI"/>
+            <xsd:enumeration value="WV"/>
+            <xsd:enumeration value="WY"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ZipType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{5}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+     <xsd:simpleType name="RatingType">
+        <xsd:restriction base="xsd:decimal">
+            <xsd:minInclusive value="0"/>
+            <xsd:maxInclusive value="5"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>

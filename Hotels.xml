@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Hotels
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemeLOcation="Hotels.xsd">
+<Hotel>
+    <Name>"Westin"</Name>
+    <Phone>"480-968-8885"</Phone>
+    <Address>
+        <Number>11</Number>
+        <Street>"E 7th St"</Street>
+        <City>"Tempe"</City>
+        <State>"AZ"</State>
+        <Zip>85281</Zip>
+        <NearestAirport>"Phoenix Sky International Airport"</NearestAirport>
+    </Address>
+    <Rating>4.2</Rating>
+</Hotel>
+
+<Hotel>
+    <Name>"Hyatt Regency Phoenix"</Name>
+    <Phone>"602-252-1234"</Phone>
+    <Address>
+        <Number>122</Number>
+        <Street>"N 2nd St"</Street>
+        <City>"Phoenix"</City>
+        <State>"AZ"</State>
+        <Zip></Zip>
+        <NearestAirport>"Phoenix Sky International Airport"</NearestAirport>
+    </Address>
+    <Rating>3.2</Rating>
+</Hotel>
+
+<Hotel>
+    <Name>"The Edgewater HOtel"</Name>
+    <Phone>"206-792-5959"</Phone>
+    <Address>
+        <Number>2411</Number>
+        <Street>"Alaskan Wy"</Street>
+        <City>"Seattle"</City>
+        <State>"WA"</State>
+        <Zip>98121</Zip>
+        <NearestAirport>"Seattle Tacoma International Airport"</NearestAirport>
+    </Address>
+    <Rating>4.4</Rating>
+</Hotel>
+
+<Hotel>
+    <Name>"Indian Wells Resort Hotel"</Name>
+    <Phone>"800-248-3220"</Phone>
+    <Address>
+        <Number>76661</Number>
+        <Street>"HWY 111"</Street>
+        <City>"Indian Wells"</City>
+        <State>"CA"</State>
+        <Zip>92210</Zip>
+        <NearestAirport>"Palm Springs International Airport"</NearestAirport>
+    </Address>
+</Hotel>
+
+<Hotel>
+    <Name>"The Garland"</Name>
+    <Phone>"888-602-7618"</Phone>
+    <Address>
+        <Number>4222</Number>
+        <Street>"Vineland Avenue"</Street>
+        <City>"Los Angeles"</City>
+        <State>"CA"</State>
+        <Zip>91602</Zip>
+        <NearestAirport>"Los Angeles International Airport"</NearestAirport>
+    </Address>
+    <Rating></Rating>
+</Hotel>
+
+<Hotel>
+    <Name>"Park Central"</Name>
+    <Phone>"833-372-3952"</Phone>
+    <Address>
+        <Number>870</Number>
+        <Street>"7th Avenue at 56th Street"</Street>
+        <City>"New York"</City>
+        <State>"NY"</State>
+        <Zip>10019</Zip>
+        <NearestAirport>"New York La Guardia Airport"</NearestAirport>
+    </Address>
+    <Rating></Rating>
+</Hotel>
+
+<Hotel>
+    <Name>"Arizona Grand Resort and Spa"</Name>
+    <Phone>"877-800-4888"</Phone>
+    <Address>
+        <Number>8000</Number>
+        <Street>"South Arizona Grand E"</Street>
+        <City>"Phoenix"</City>
+        <State>"AZ"</State>
+        <Zip>85044</Zip>
+        <NearestAirport>"Phoenix Sky International Airport"</NearestAirport>
+    </Address>
+    <Rating>4.3</Rating>
+</Hotel>
+
+<Hotel>
+    <Name>"The Wade"</Name>
+    <Phone>"312-943-9200"</Phone>
+    <Address>
+        <Number>644</Number>
+        <Street>"N Lake Shore Dr,"</Street>
+        <City>"Chicago"</City>
+        <State>"IL"</State>
+        <Zip>60611</Zip>
+        <NearestAirport>"Midway International Airport"</NearestAirport>
+    </Address>
+</Hotel>
+
+<Hotel>
+    <Name>"Sky Ranch Lodge"</Name>
+    <Phone>"928-282-4111"</Phone>
+    <Address>
+        <Number>1105</Number>
+        <Street>"Airport Road"</Street>
+        <City>"Sedona"</City>
+        <State>"AZ"</State>
+        <Zip>86336</Zip>
+        <NearestAirport>"Flagstaff Pulliam Airport"</NearestAirport>
+    </Address>
+</Hotel>
+
+<Hotel>
+    <Name>"Little America Hotel Flagstaff"</Name>
+    <Phone>"928-779-7900"</Phone>
+    <Address>
+        <Number>2515</Number>
+        <Street>"E Butler Ave"</Street>
+        <City>"Flagstaff"</City>
+        <State>"AZ"</State>
+        <Zip>86004</Zip>
+        <NearestAirport>"Flagstaff Airport"</NearestAirport>
+    </Address>
+</Hotel>
+
+</Hotels>
