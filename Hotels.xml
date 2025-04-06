@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Hotels
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemeLOcation="Hotels.xsd">
+xsi: noNamespaceSchemeLocation= "Hotels.xsd">
 <Hotel>
     <Name>"Westin"</Name>
     <Phone>"480-968-8885"</Phone>
