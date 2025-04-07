@@ -105,7 +105,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
     <Phone>"312-943-9200"</Phone>
     <Address>
         <Number>644</Number>
-        <Street>"N Lake Shore Dr,"</Street>
+        <Street>"N Lake Shore Dr"</Street>
         <City>"Chicago"</City>
         <State>"IL"</State>
         <Zip>60611</Zip>
