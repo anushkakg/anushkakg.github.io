@@ -23,7 +23,7 @@
     </xsd:simpleType>
     <xsd:complexType name="AddressType">
         <xsd:sequence>
-            <xsd:element name="Number" type="xsd:positiveInteger"/>
+            <xsd:element name="Number" type="xsd:integer"/>
             <xsd:element name="Street" type="xsd:string"/>
             <xsd:element name="City" type="xsd:string"/>
             <xsd:element name="State" type="StateType"/>
