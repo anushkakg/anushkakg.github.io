@@ -12,7 +12,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
         <City>"Tempe"</City>
         <State>"AZ"</State>
         <Zip>85281</Zip>
-        <NearestAirport>"Phoenix Sky International Airport"</NearestAirport>
+        <NearstAirport>"Phoenix Sky International Airport"</NearstAirport>
     </Address>
     <Rating>4.2</Rating>
 </Hotel>
@@ -26,7 +26,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
         <City>"Phoenix"</City>
         <State>"AZ"</State>
         <Zip></Zip>
-        <NearestAirport>"Phoenix Sky International Airport"</NearestAirport>
+        <NearstAirport>"Phoenix Sky International Airport"</NearstAirport>
     </Address>
     <Rating>3.2</Rating>
 </Hotel>
@@ -40,7 +40,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
         <City>"Seattle"</City>
         <State>"WA"</State>
         <Zip>98121</Zip>
-        <NearestAirport>"Seattle Tacoma International Airport"</NearestAirport>
+        <NearstAirport>"Seattle Tacoma International Airport"</NearstAirport>
     </Address>
     <Rating>4.4</Rating>
 </Hotel>
@@ -54,7 +54,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
         <City>"Indian Wells"</City>
         <State>"CA"</State>
         <Zip>92210</Zip>
-        <NearestAirport>"Palm Springs International Airport"</NearestAirport>
+        <NearstAirport>"Palm Springs International Airport"</NearstAirport>
     </Address>
 </Hotel>
 
@@ -67,7 +67,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
         <City>"Los Angeles"</City>
         <State>"CA"</State>
         <Zip>91602</Zip>
-        <NearestAirport>"Los Angeles International Airport"</NearestAirport>
+        <NearstAirport>"Los Angeles International Airport"</NearstAirport>
     </Address>
     <Rating></Rating>
 </Hotel>
@@ -81,7 +81,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
         <City>"New York"</City>
         <State>"NY"</State>
         <Zip>10019</Zip>
-        <NearestAirport>"New York La Guardia Airport"</NearestAirport>
+        <NearstAirport>"New York La Guardia Airport"</NearstAirport>
     </Address>
     <Rating></Rating>
 </Hotel>
@@ -95,7 +95,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
         <City>"Phoenix"</City>
         <State>"AZ"</State>
         <Zip>85044</Zip>
-        <NearestAirport>"Phoenix Sky International Airport"</NearestAirport>
+        <NearstAirport>"Phoenix Sky International Airport"</NearstAirport>
     </Address>
     <Rating>4.3</Rating>
 </Hotel>
@@ -109,7 +109,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
         <City>"Chicago"</City>
         <State>"IL"</State>
         <Zip>60611</Zip>
-        <NearestAirport>"Midway International Airport"</NearestAirport>
+        <NearstAirport>"Midway International Airport"</NearstAirport>
     </Address>
 </Hotel>
 
@@ -122,7 +122,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
         <City>"Sedona"</City>
         <State>"AZ"</State>
         <Zip>86336</Zip>
-        <NearestAirport>"Flagstaff Pulliam Airport"</NearestAirport>
+        <NearstAirport>"Flagstaff Pulliam Airport"</NearstAirport>
     </Address>
 </Hotel>
 
@@ -135,7 +135,7 @@ xsi:noNamespaceSchemeLocation= "Hotels.xsd">
         <City>"Flagstaff"</City>
         <State>"AZ"</State>
         <Zip>86004</Zip>
-        <NearestAirport>"Flagstaff Airport"</NearestAirport>
+        <NearstAirport>"Flagstaff Airport"</NearstAirport>
     </Address>
 </Hotel>
 
