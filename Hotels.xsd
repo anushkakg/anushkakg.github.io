@@ -100,5 +100,4 @@
             <xsd:maxInclusive value="5"/>
         </xsd:restriction>
     </xsd:simpleType>
-
 </xsd:schema>
