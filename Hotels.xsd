@@ -27,7 +27,7 @@
             <xsd:element name="Street" type="xsd:string"/>
             <xsd:element name="City" type="xsd:string"/>
             <xsd:element name="State" type="StateType"/>
-            <xsd:element name="Zip" type="ZipType"/>
+            <xsd:element name="Zip" type="xsd:integer"/>
         </xsd:sequence>
         <xsd:attribute name="NearstAirport" type="xsd:string" use="required"/>
     </xsd:complexType>
@@ -89,13 +89,7 @@
             <xsd:enumeration value="WY"/>
         </xsd:restriction>
     </xsd:simpleType>
-    <xsd:simpleType name="ZipType">
-        <xsd:restriction base="xsd:integer">
-            <xsd:minInclusive value="0"/>
-            <xsd:maxInclusive value="99999"/>
-        </xsd:restriction>
-    </xsd:simpleType>
-     <xsd:simpleType name="RatingType">
+    <xsd:simpleType name="RatingType">
         <xsd:restriction base="xsd:integer">
             <xsd:minInclusive value="0"/>
             <xsd:maxInclusive value="5"/>
