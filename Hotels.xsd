@@ -29,7 +29,7 @@
             <xsd:element name="State" type="StateType"/>
             <xsd:element name="Zip" type="ZipType"/>
         </xsd:sequence>
-        <xsd:attribute name="NearstAirport" type="ZipType" use="required"/>
+        <xsd:attribute name="NearstAirport" type="xsd:string" use="required"/>
     </xsd:complexType>
     <xsd:simpleType name="StateType">
         <xsd:restriction base="xsd:string">
@@ -90,12 +90,13 @@
         </xsd:restriction>
     </xsd:simpleType>
     <xsd:simpleType name="ZipType">
-        <xsd:restriction base="xsd:string">
-            <xsd:pattern value="\d{5}"/>
+        <xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="0"/>
+            <xsd:maxInclusive value="99999"/>
         </xsd:restriction>
     </xsd:simpleType>
      <xsd:simpleType name="RatingType">
-        <xsd:restriction base="xsd:decimal">
+        <xsd:restriction base="xsd:integer">
             <xsd:minInclusive value="0"/>
             <xsd:maxInclusive value="5"/>
         </xsd:restriction>
