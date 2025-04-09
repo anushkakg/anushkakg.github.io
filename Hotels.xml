@@ -14,7 +14,7 @@ xsi:schemaLocation= "Hotels.xsd">
         <Zip>85281</Zip>
         <NearstAirport>"Phoenix Sky International Airport"</NearstAirport>
     </Address>
-    <Rating>4.2</Rating>
+    <Rating>4</Rating>
 </Hotel>
 
 <Hotel>
@@ -28,7 +28,7 @@ xsi:schemaLocation= "Hotels.xsd">
         <Zip></Zip>
         <NearstAirport>"Phoenix Sky International Airport"</NearstAirport>
     </Address>
-    <Rating>3.2</Rating>
+    <Rating>3</Rating>
 </Hotel>
 
 <Hotel>
@@ -42,7 +42,7 @@ xsi:schemaLocation= "Hotels.xsd">
         <Zip>98121</Zip>
         <NearstAirport>"Seattle Tacoma International Airport"</NearstAirport>
     </Address>
-    <Rating>4.4</Rating>
+    <Rating>4</Rating>
 </Hotel>
 
 <Hotel>
@@ -97,7 +97,7 @@ xsi:schemaLocation= "Hotels.xsd">
         <Zip>85044</Zip>
         <NearstAirport>"Phoenix Sky International Airport"</NearstAirport>
     </Address>
-    <Rating>4.3</Rating>
+    <Rating>4</Rating>
 </Hotel>
 
 <Hotel>
