@@ -1,6 +1,10 @@
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://venus.sod.asu.edu/WSRepository/xml" targetNamespace="http://venus.sod.asu.edu/WSRepository/xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns="http://venus.sod.asu.edu/WSRepository/xml" 
+    targetNamespace="http://venus.sod.asu.edu/WSRepository/xml" elementFormDefault="qualified" 
+    attributeFormDefault="unqualified">
     <xsd:annotation>
-        <xsd:documentation xml:lang="en"> Distributed Software Development Course Example </xsd:documentation>
+        <xsd:documentation xml:lang="en"> Distributed Software Development Hotel
+        </xsd:documentation>
     </xsd:annotation>
     <xsd:element name="Hotels" type="HotelsType"/>
     <xsd:complexType name="HotelsType">
